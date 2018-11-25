@@ -3,7 +3,7 @@ package aplicacao;
 
 
 public class Aplicacao {
-      String registo_util;
+     private String registo_util;
    
 }
 
@@ -20,20 +20,59 @@ class Mestrado{
 class Estudante {
      String nome;
      long id;
+     
+     
+     void registo_util(){
+         
+     }
+     
+     void  montante_max(){
+        
+         
+     }
 }
 
 class Viagem{
     
-
+         void custo (){
+         
+     }
+         void apres_viagem(){
+             
+         }
+         void visual_viagem(){
+             
+         }
 }
 
 class Horario{
     String horario_func;
+    
+    
+    void horario(){
+        
+    }
 }
 
+
+class Locais{
+     String nome_cidade;
+     
+     void  locais_pop(){
+    
+}
+} 
+        
+        
+        
 class PontosInteresse{
     String nome;
     double despesas;
+    
+    
+    void pontos_pop(){
+    
+}
     
 }
 
